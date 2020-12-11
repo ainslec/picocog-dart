@@ -2,6 +2,34 @@
 
 A tiny code generation (templating) library, ported to Dart from Java (by the original author of Picocog).
 
+More information on the [pub.dev page](https://pub.dev/packages/picocog_dart).
+
+## Installing
+
+Add the following to your pubspec.yaml file:
+
+```yaml
+dependencies:
+  picocog_dart: ^1.0.6
+```
+For dart, run:
+
+```
+$ pub get
+```
+
+For Flutter, run:
+
+```
+$ flutter pub get
+```
+
+To import into your Dart/Flutter code:
+
+```dart
+import 'package:picocog_dart/picocog_dart.dart';
+```
+
 ## Usage
 
 A simple usage example:
@@ -267,7 +295,19 @@ Please file feature requests and bugs at the [issue tracker][tracker].
 
 Picocog Dart is available under the Apache Version 2.0 license. See the LICENSE file for the full license.
 
+## Java Version
+
+The original Java version of Picocog is available [here](https://github.com/ainslec/picocog).
+
 ## Dart Library Boilerplate
 
 Non-code boilerplate for the dart library was created from a template made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+## Author
+
+Picocog, and Picocog-Dart are written by Chris Ainsley.
+
+## Keywords
+
+Code Generation, Code Generation, Template Library, Lightweight, Tiny, Model Based Development, Model Driven Development.
